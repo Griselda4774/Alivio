@@ -1,0 +1,91 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+}
+h1 table {
+  display: inline;
+  margin-inline: 15px;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 8px;
+  border-radius: 5%;
+  transition: all 0.5s;
+}
+.home {
+  margin-right: 80px;
+  font-size: 22px;
+  color: rgb(42, 136, 173);
+}
+.end {
+  margin-left: 150px;
+}
+.try,
+.find {
+  background-color: rgb(42, 136, 173);
+}
+.try th,
+.find th {
+  text-align: center;
+  width: 150px;
+  color: white;
+}
+.end:hover {
+  background-color: rgb(42, 136, 173);
+  color: white;
+}
+.center:hover {
+  background-color: rgb(42, 136, 173);
+  color: white;
+}
+.find {
+  margin-right: auto;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 8px;
+  border-radius: 5%;
+  margin-left: 230px;
+  transform: translateY(-920px);
+}
+div {
+  position: relative;
+}
+div img {
+  width: 100%;
+  z-index: 0;
+}
+.text p,
+.lorem {
+  z-index: 100;
+  margin-left: 230px;
+  transform: translateY(-920px);
+}
+div p:nth-child(1) {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(42, 136, 173);
+  margin-bottom: -60px;
+}
+div p:nth-child(2) {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(42, 136, 173);
+}
+.lorem {
+  width: 400px;
+  height: fit-content;
+  overflow: auto;
+  text-align: left;
+  margin-top: -40px;
+  margin-bottom: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 90;
+}
+.find:hover {
+  cursor: pointer;
+  text-decoration: underline white solid;
+}
